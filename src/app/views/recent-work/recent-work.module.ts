@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RecentWorkComponent } from './recent-work.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: []
+  declarations: [RecentWorkComponent]
 })
-export class AboutMeModule { }
+export class RecentWorkModule { }
