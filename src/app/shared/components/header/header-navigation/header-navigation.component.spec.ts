@@ -1,25 +1,25 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { fakeAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { HeaderNavigationComponent } from './header-navigation.component';
 
 describe('HeaderNavigationComponent', () => {
   let component: HeaderNavigationComponent;
   let fixture: ComponentFixture<HeaderNavigationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(fakeAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderNavigationComponent ]
+      imports: [MatSidenavModule],
+      declarations: [HeaderNavigationComponent]
     })
     .compileComponents();
-  }));
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(HeaderNavigationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  });
+  }));
 
-  it('should create', () => {
+  it('should compile', () => {
     expect(component).toBeTruthy();
   });
 });
