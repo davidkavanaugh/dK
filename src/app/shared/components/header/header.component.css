@@ -11,3 +11,18 @@
   position: sticky;
   top: 0;
 }
+
+.hidden {
+  display: none;
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+.mat-toolbar.mat-primary a{
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
