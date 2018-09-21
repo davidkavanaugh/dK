@@ -2,11 +2,10 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { MatButtonModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule  } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderNavigationComponent } from './shared/components/header/header-navigation/header-navigation.component';
+import { HeaderComponent } from './shared/components/header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 
 
@@ -14,9 +13,8 @@ import { LayoutModule } from '@angular/cdk/layout';
   declarations: [
     AppComponent,
     routingComponents,
-    HeaderComponent,
     FooterComponent,
-    HeaderNavigationComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
