@@ -14,7 +14,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppComponent,
     routingComponents,
     FooterComponent,
-    HeaderComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
