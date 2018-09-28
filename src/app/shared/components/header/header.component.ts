@@ -17,11 +17,10 @@ export class HeaderComponent {
       map(result => result.matches)
     );
 
-    isWeb$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Web)
+    isWeb$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
-      map(result => result.matches)
+      map(result => !result.matches)
     );
-
 
   constructor(public breakpointObserver: BreakpointObserver) {}
 

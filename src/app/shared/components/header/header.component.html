@@ -11,8 +11,8 @@
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-list class="nav-list">
       <a mat-list-item href="/">Home</a>
-      <a mat-list-item href="about-me">About Me</a>
       <a mat-list-item href="recent-work">Recent Work</a>
+      <a mat-list-item href="about-me">About Me</a>
       <a mat-list-item href="contact">Contact</a>
     </mat-list>
   </mat-sidenav>
@@ -20,8 +20,8 @@
     <mat-toolbar color="primary">
 
       <a mat-list-item *ngIf="isWeb$ | async" href="/">Home</a>
-      <a mat-list-item *ngIf="isWeb$ | async" href="about-me">About Me</a>
       <a mat-list-item *ngIf="isWeb$ | async" href="recent-work">Recent Work</a>
+      <a mat-list-item *ngIf="isWeb$ | async" href="about-me">About Me</a>
       <a mat-list-item *ngIf="isWeb$ | async" href="contact">Contact</a>
 
 
