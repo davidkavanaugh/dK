@@ -27,3 +27,13 @@
   text-decoration: none;
   font-size: .7em;
 }
+
+.nav-list a{
+text-decoration: none;
+background-color: white;
+transition: background-color 0.5s;
+}
+
+.nav-list a:hover{
+background-color: #dddddd;
+}

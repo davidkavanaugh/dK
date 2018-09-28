@@ -8,6 +8,8 @@ import { map } from 'rxjs/operators';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
+
 export class HeaderComponent {
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
@@ -15,6 +17,12 @@ export class HeaderComponent {
       map(result => result.matches)
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+    isWeb$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Web)
+    .pipe(
+      map(result => result.matches)
+    );
+
+
+  constructor(public breakpointObserver: BreakpointObserver) {}
 
   }
