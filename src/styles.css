@@ -12,3 +12,8 @@ body{
 .full-height{
   min-height: 100%;
 }
+
+.project-img{
+border-radius: 50%;
+width: 200px;
+}
