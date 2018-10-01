@@ -17,3 +17,33 @@ body{
 border-radius: 50%;
 width: 200px;
 }
+
+#profile {
+  text-align: center;
+  min-height: 350px;
+  padding: 15px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chakra Petch', sans-serif;
+
+  }
+
+  h1{
+    font-size: 3em;
+    font-weight: 100;
+    line-height:100%;
+  }
+
+  h2{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: -20px;
+  }
+
+  h3{
+    line-height: 0%;
+    font-weight: 100;
+    font-size: 0.9em;
+
+  }

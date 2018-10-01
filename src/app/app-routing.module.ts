@@ -1,3 +1,4 @@
+import { RecentWorkComponent } from './modules/recent-work/pages/recent-work/recent-work.page';
 import { Project3Component } from './modules/project3/pages/project3/project3.page';
 import { Project2Component } from './modules/project2/pages/project2/project2.page';
 import { Project1Component } from './modules/project1/pages/project1/project1.page';
@@ -11,7 +12,6 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about-me', component: AboutMeComponent },
   { path: 'contact', component: ContactComponent },
-
   { path: '**', component: HomeComponent }
 ];
 
@@ -24,6 +24,7 @@ export const routingComponents = [
   HomeComponent,
   AboutMeComponent,
   ContactComponent,
+  RecentWorkComponent,
   Project1Component,
   Project2Component,
   Project3Component
