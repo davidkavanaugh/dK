@@ -1,9 +1,9 @@
 .project-img{
   border-radius: 15%;
-  max-width: 15%;
   background-color: white;
   padding: 10px;
   margin: 10px 0 25px 0;
+  width: 150px;
   }
 
   #project-brief {

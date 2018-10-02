@@ -5,11 +5,13 @@
 .sidenav {
   width: 200px;
   box-shadow: 3px 0 6px rgba(0,0,0,.24);
+
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
+
 }
 
 .hidden {
@@ -26,12 +28,20 @@
   color: white;
   text-decoration: none;
   font-size: .7em;
+  font-family:'Chakra Petch', sans-serif;
+  transition: color 0.5s;
+}
+
+.mat-toolbar.mat-primary a:hover{
+  color: #dddddd;
 }
 
 .nav-list a{
 text-decoration: none;
 background-color: white;
 transition: background-color 0.5s;
+font-family:'Chakra Petch', sans-serif;
+
 }
 
 .nav-list a:hover{
