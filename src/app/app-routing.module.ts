@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about-me', component: AboutMeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'recent-work', component: RecentWorkComponent },
   { path: '**', component: HomeComponent }
 ];
 
