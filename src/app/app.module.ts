@@ -1,3 +1,5 @@
+import { FormsModule } from '@angular/forms';
+import { ContactComponent } from './modules/contact/pages/contact/contact.page';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -15,7 +17,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     routingComponents,
     FooterComponent,
     HeaderComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -26,7 +28,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
